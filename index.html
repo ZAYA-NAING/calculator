@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="calculator-wrapper">
+    <div class="calculator-container">
+        <div class="display-container">
+            <div class="row">
+                <div class="column" data-previous=""></div>
+                <div class="column" data-current=""></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="column"></div>
+                <div class="column" data-all-clear="all-clear">AC</div>
+                <div class="column" data-delete="delete">DEL</div>
+                <div class="column" data-operand="%">%</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="column" data-number="7">7</div>
+                <div class="column" data-number="8">8</div>
+                <div class="column" data-number="9">9</div>
+                <div class="column" data-operand="/">/</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="column" data-number="4">4</div>
+                <div class="column" data-number="5">5</div>
+                <div class="column" data-number="6">6</div>
+                <div class="column" data-operand="*">*</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="column" data-number="1">1</div>
+                <div class="column" data-number="2">2</div>
+                <div class="column" data-number="3">3</div>
+                <div class="column" data-operand="+">+</div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="column" data-number="0">0</div>
+                <div class="column">.</div>
+                <div class="column" data-equal="=">=</div>
+                <div class="column" data-operand="-">-</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
